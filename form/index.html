@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OSS Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css"/>
+    <style>
+        label {
+            width: 100px;
+        }
+        .error-label {
+            color: red;
+        }
+        input {
+            border : 1px solid #ccc;
+        }
+       .error {
+            border-color: red;
+        }
+        .content {
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+		#empy-firstName, #empy-lastName, #empy-email, #incorrectly {
+			display: none;
+            margin-left: 117px;
+            font-size: 12px;
+            margin-top: -5px;
+            color: red;
+		}
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="content">
+                <form onsubmit="myForm()" id="testForm">
+                    <div>
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName"/>
+                        <span id="empy-firstName" class="text">Поле не заполнено</span>
+                    </div>
+                    <div>
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName"/>
+                        <span id="empy-lastName" class="text">Поле не заполнено</span>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email"/>
+                          <span id="empy-email" class="text">Поле не заполнено</span>
+						<span id="incorrectly" class="text">Некоректный ввод</span>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script async src="common.js"> </script>

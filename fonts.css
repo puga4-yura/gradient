@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'MuseoSansThin';
+    src: url('fonts/100/museosanscyrl_100.eot');
+    src: url('fonts/100/museosanscyrl_100.eot?#iefix') format('embedded-opentype'),
+    url('fonts/100/museosanscyrl_100.woff2') format('woff2'),
+    url('fonts/100/museosanscyrl_100.woff') format('woff'),
+    url('fonts/100/museosanscyrl_100.svg#MuseoSansThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AA-BebasNeue';
+    src: url('fonts/Bebas/AA-BebasNeue.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Bold';
+    src: url('fonts/Bebas/BebasNeue Bold.otf');
+}
+@font-face {
+    font-family: 'BebasNeue Book';
+    src: url('fonts/Bebas/BebasNeue Book.otf');
+}
+@font-face {
+    font-family: 'BebasNeue Light';
+    src: url('fonts/Bebas/BebasNeue Light.otf');
+}
+@font-face {
+    font-family: 'BebasNeue Regular';
+    src: url('fonts/Bebas/BebasNeue Regular.otf');
+}
+@font-face {
+    font-family: 'BebasNeue Thin';
+    src: url('fonts/Bebas/BebasNeue Thin.otf');
+}
+@font-face {
+    font-family: 'BebasNeueCyrillic';
+    src: url('fonts/Bebas/BebasNeueCyrillic.ttf');
+}
+@font-face {
+    font-family: 'Evogria Italic';
+    src: url('fonts/Evogria/Evogria Italic.otf');
+}
+@font-face {
+    font-family: 'Evogria';
+    src: url('fonts/Evogria/Evogria.otf');
+}
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('fonts/Gilroy/Gilroy-ExtraBold.otf');
+}
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('fonts/Gilroy/Gilroy-Light.otf');
+}
